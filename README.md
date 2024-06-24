@@ -1,9 +1,70 @@
-# E-commerceWebsite
-This project deals with developing a Virtual website ‘E-commerce Website’. It provides the user with a list of the various products available for purchase in the store. For the convenience of online shopping, a shopping cart is provided to the user. After the selection of the goods, it is sent for the order confirmation process. The system is implemented using Python's web framework Django.
+# Django E-commerce Website
 
-1. Clone this repository into a folder on your computer
-2. Download Python
-3. Open terminal inside the folder with code.
-4. Type pip install -r requirements.txt in the terminal window to install all the requirements to run the app.
-5. Type python manage.py runserver to start a localhost server for the app.
-6. The API is started and now you can use the API routes to give requests.
+## Overview
+This is an e-commerce website built using Django, a Python web framework. It provides basic shopping cart functionalities where users can browse products, add them to the cart, and proceed with checkout.
+
+The website utilizes a SQLite database to store products and manage user orders. The Django admin interface allows administrators to manage products, categories, users, and customer orders efficiently.
+
+## Getting Started
+Django E-commerce Website
+
+### Installation
+1. Clone the repository or download the source code from the link provided.
+2. Open PyCharm Professional IDE.
+3. Click on `File` -> `New Project` and select `Django`.
+4. Choose a location for your project and create it.
+
+### Running the Project
+Follow these steps to run the Django server locally:
+
+1. Extract/unzip the downloaded file if you haven't already.
+2. Navigate into the project directory using the command line.
+3. Install Django and Pillow (for image handling):
+
+   ```bash
+   pip install Django Pillow
+
+
+## Viewing the Website
+
+Open your web browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to view the website.
+
+## Admin Panel
+
+To access the admin panel:
+
+- **URL:** [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
+- **Username:** admin
+- **Password:** admin
+
+## Features
+
+### Admin Features
+
+- **Dashboard:** Overview of the entire system including products, orders, users, and categories.
+- **Manage Products:** Add, update, and delete products.
+- **Manage Orders:** Track and manage customer orders.
+- **Manage Categories:** Create and manage product categories.
+- **Manage Users:** Admin can manage user accounts.
+- **Login and Logout:** Secure authentication system.
+
+### Frontend Features
+
+- **Home Page:** Displays list of products with category filtering.
+- **View Products:** Customers can view detailed product information.
+- **Checkout Order:** Customers can place orders which are processed by the admin.
+- **Customer Profile:** Registration and profile management for customers.
+- **Add to Cart:** Temporary cart to hold selected products.
+
+## Project Information
+
+- **Project Name:** E-commerce website using Django
+- **Python Version:** 3.12 (Recommended)
+- **Programming Language:** Python (Django)
+- **Developer:** (github.com/sachnaror/)
+- **IDE Tool (Recommended):** Sublime Text, Visual Studio Code, PyCharm
+- **Project Type:** Web Application
+- **Database:** SQLite
+
+
+![alt text](image.png)
