@@ -9,8 +9,8 @@ The website utilizes a SQLite database to store products and manage user orders.
 Django E-commerce Website
 
 ### Installation
-1. Clone the repository or download the source code from the link provided.
-2. Open PyCharm Professional IDE.
+1. Clone the repository
+2. Open V S Code
 3. Click on `File` -> `New Project` and select `Django`.
 4. Choose a location for your project and create it.
 
@@ -62,7 +62,7 @@ To access the admin panel:
 - **Python Version:** 3.12 (Recommended)
 - **Programming Language:** Python (Django)
 - **Developer:** (github.com/sachnaror/)
-- **IDE Tool (Recommended):** Sublime Text, Visual Studio Code, PyCharm
+- **IDE Tool (Recommended):** Sublime Text, Visual Studio Code
 - **Project Type:** Web Application
 - **Database:** SQLite
 
